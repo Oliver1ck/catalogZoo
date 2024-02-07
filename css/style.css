@@ -668,6 +668,7 @@
   padding: 8px;
   transition: 0.5s ease;
   transform: scaleY(0);
+  z-index: 2;
 }
 
 .catalog__sort-select-list-active {
@@ -788,6 +789,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 .promotional__item-label div {
   width: 18px;
@@ -831,6 +833,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 .filter__type-list-item-label p {
   color: rgb(32, 34, 35);
@@ -940,6 +943,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 .brand__list-item-label p {
   color: rgb(32, 34, 35);
@@ -1199,7 +1203,6 @@
   color: var(--Icon-Highlight, #00a0ac);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "SF Pro Text";
-  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
