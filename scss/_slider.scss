@@ -1,5 +1,3 @@
-
-
 .slider__title {
     color: var(--Text-Default, #202223);
     font-feature-settings: "clig" off, "liga" off;
@@ -43,8 +41,8 @@
 
 .slider__item-img {
     max-width: 227px;
+    max-height: 130px;
     & img {
-        max-height: 130px;
         width: 100%;
         height: 100%;
         object-fit: cover;
