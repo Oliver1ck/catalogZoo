@@ -216,9 +216,9 @@
     }
 
     .slider__item-img {
-        max-width: initial;
+        max-width: inherit;
         & img {
-            max-height: initial;
+            max-height: inherit;
         }
     }
 }
