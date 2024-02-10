@@ -1066,7 +1066,8 @@
   align-items: center;
   gap: 32px;
 }
-.products__pagination-list li {
+
+.products__pagination-list-item {
   color: rgb(0, 160, 172);
   font-family: SF Pro Text;
   font-size: 16px;
@@ -1082,6 +1083,13 @@
 
 .products__next p {
   display: none;
+}
+
+.products__pagination-list-item-active {
+  color: rgb(109, 113, 117);
+  font-family: SF Pro Text;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 @media (min-width: 992px) {
