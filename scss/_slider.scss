@@ -57,6 +57,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 
     &:hover {
         color: var(--Icon-Highlight, #00a0ac);
