@@ -50,6 +50,10 @@
         font-style: normal;
         font-weight: 700;
         line-height: 20px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
     }
 
     & p {
